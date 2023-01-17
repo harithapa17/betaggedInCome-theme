@@ -1,11 +1,24 @@
- {
-    "sections": {
-      "main": {
-        "type": "main-page-faq"
+{
+  "sections": {
+    "main": {
+      "type": "main-page-faq",
+      "blocks": {
+        "11d211e6-2117-4eb3-98f9-3051f9be8331": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I place an order on your website?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "11d211e6-2117-4eb3-98f9-3051f9be8331"
+      ],
+      "settings": {
       }
-    },
-    "order": [
-      "main"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
