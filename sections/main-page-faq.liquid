@@ -34,18 +34,20 @@
     }
   }
 {%- endstyle -%}
-
+{% for block in section.blocks %}
+<div>{{ block.settings.faq_title }}</div>
+{% endfor %}
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
-  </h1>
+ <h1>Frequently Asked Questions</h1>
   <div class="rte">
     {{ page.content }}
   </div>
+  
   <div class="faq_container">
     <div class="tabs">
       {% for block in section.blocks %}
-
+  <div>{{ block.settings.faq_title }}</div>
+          
         {% assign item = block.settings %}
         <div class="tab">
           <input
@@ -66,6 +68,18 @@
     "tag": "section",
     "class": "section",
     "blocks": [
+      {
+      "name":"faq",
+      "type": "title",
+      "settings":[
+        {
+         "type": "text",
+         "id":"faq_title",
+         "label":"Frequently Asked Questions",
+         "default":"Frequently Asked Question"
+       }  
+    ]
+    },
       {
         "name": "FAQ Item",
         "type": "faq",
