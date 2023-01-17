@@ -154,10 +154,18 @@
               "heading": "Company",
               "subtext": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">About<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Contact<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">FAQ<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Join as influencer<\/a><\/p>"
             }
+          },
+          "9f56a034-1931-44ec-b97a-112a7b953eb6": {
+            "type": "text",
+            "settings": {
+              "heading": "Legal",
+              "subtext": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">Terms of Service<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Privacy Policy<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Return Policy<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Shipping<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Affiliate Disclaimer<\/a><\/p>"
+            }
           }
         },
         "block_order": [
-          "1bb176d3-e694-4d6c-bba7-981965c3d2a8"
+          "1bb176d3-e694-4d6c-bba7-981965c3d2a8",
+          "9f56a034-1931-44ec-b97a-112a7b953eb6"
         ],
         "settings": {
           "color_scheme": "background-1",
