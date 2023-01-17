@@ -105,10 +105,11 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_whatsapp_link": "https:\/\/web.whatsapp.com\/",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -147,41 +148,33 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
+          "1bb176d3-e694-4d6c-bba7-981965c3d2a8": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Company",
+              "subtext": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">About<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Contact<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">FAQ<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Join as influencer<\/a><\/p>"
+            }
+          },
+          "9f56a034-1931-44ec-b97a-112a7b953eb6": {
+            "type": "text",
+            "settings": {
+              "heading": "Legal",
+              "subtext": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">Terms of Service<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Privacy Policy<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Return Policy<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Shipping<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Affiliate Disclaimer<\/a><\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "1bb176d3-e694-4d6c-bba7-981965c3d2a8",
+          "9f56a034-1931-44ec-b97a-112a7b953eb6"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
+          "payment_enable": false,
           "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36
