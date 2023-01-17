@@ -50,32 +50,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "87e83384-811c-4f76-9019-5827750d6fda": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"\/pages\/contact\" title=\"Contact\"><strong>df<\/strong><\/a><\/p>"
-          }
-        },
-        "525503b1-4658-482c-a0a8-b2322201197f": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.\/pages\/faqs<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "87e83384-811c-4f76-9019-5827750d6fda",
-        "525503b1-4658-482c-a0a8-b2322201197f"
-      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
