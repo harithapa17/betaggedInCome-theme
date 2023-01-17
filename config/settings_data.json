@@ -147,6 +147,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "1bb176d3-e694-4d6c-bba7-981965c3d2a8": {
+            "type": "text",
+            "settings": {
+              "heading": "Company",
+              "subtext": "<p><a href=\"\/pages\/faqs\" title=\"FAQ\">About<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Contact<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">FAQ<\/a><\/p><p><a href=\"\/pages\/faqs\" title=\"FAQ\">Join as influencer<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1bb176d3-e694-4d6c-bba7-981965c3d2a8"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
