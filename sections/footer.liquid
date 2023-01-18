@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'base.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
@@ -13,6 +15,7 @@
 <noscript>{{ 'component-list-social.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
+
 
 {%- style -%}
   .footer {
@@ -40,14 +43,14 @@
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       <div class="main-footer">
-         <div>
+         <div class="main-footer-box1">
             <div>
               <small class="copyright__content">{{ shop.name | link_to: routes.root_url }}</small>
             </div>
             <div>
               <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }} -{{ powered_by_link }}</small>
             </div>
-           <div>
+      <div>
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_instagram_link != blank -%}
@@ -133,7 +136,7 @@
             {%- endif -%}
           </ul>
         {%- endif -%}
-            </div>
+      </div>
         </div>
        
        {%- if section.blocks.size > 0 -%}
@@ -144,9 +147,9 @@
             assign footer_grid_class = 'grid--4-col-desktop'
           elsif section.blocks.size > 4
             assign footer_grid_class = 'grid--3-col-tablet'
-          endif -%} 
-
-        <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          endif -%}                      
+        
+        <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-desktop {{ footer_grid_class }}">
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.heading != blank -%}
@@ -190,7 +193,7 @@
                 {%- endcase -%}
             </div>
           {%- endfor -%}
-        </div>
+           </div>
       {%- endif -%}
     </div>
       <div class="footer-block--newsletter">
