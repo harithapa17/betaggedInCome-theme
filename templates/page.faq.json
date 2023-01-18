@@ -1,11 +1,64 @@
- {
-    "sections": {
-      "main": {
-        "type": "main-page-faq"
+{
+  "sections": {
+    "main": {
+      "type": "main-page-faq",
+      "blocks": {
+        "11d211e6-2117-4eb3-98f9-3051f9be8331": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I place an order on your website?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        },
+        "de85065b-542d-4a35-9260-6c0c32b4ccb6": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        },
+        "48c90f06-e333-4d95-a9e1-4a5f08db8d24": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer an option to send product as a gift?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        },
+        "1771ccd7-d828-4824-9906-876fc849ed5d": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment method do you accept?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        },
+        "1b2c7a62-04e5-4f0d-acd7-8b23781321e7": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer an option to pay for the product over time?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        },
+        "82dff929-6b0e-4174-8933-4b2265b506fe": {
+          "type": "faq",
+          "settings": {
+            "question": "Do I have pay for the shipping?",
+            "answer": "<p>All you need to do to place an order on our website to choose the <br\/>products that you would like to buy, then add it to cart and pay for it <br\/>using any of the supported payment methods. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "11d211e6-2117-4eb3-98f9-3051f9be8331",
+        "de85065b-542d-4a35-9260-6c0c32b4ccb6",
+        "48c90f06-e333-4d95-a9e1-4a5f08db8d24",
+        "1771ccd7-d828-4824-9906-876fc849ed5d",
+        "1b2c7a62-04e5-4f0d-acd7-8b23781321e7",
+        "82dff929-6b0e-4174-8933-4b2265b506fe"
+      ],
+      "settings": {
       }
-    },
-    "order": [
-      "main"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
